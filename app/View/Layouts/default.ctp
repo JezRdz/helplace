@@ -76,8 +76,7 @@
 	<div id="footer">
 	</div>
 	</div>
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuUsluKXcIF2Hkqowx_sq2H38d8nUPOdc&callback=initMap">
-	</script>
+	
 
 	<!-- BS JS -->
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
