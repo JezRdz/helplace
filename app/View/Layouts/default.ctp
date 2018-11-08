@@ -31,13 +31,53 @@
 
 <body>
 
+	<div class="loader-full">
+		<div class="loader-gif">
+			<img src="img/iconos/loadercel.gif" alt="">
+		</div>
+	</div>
 
+	<nav class="navbar navbar-expand-lg navbar-dark azul-proyecto sticky-top">
+    <!-- Image and text -->
+
+  <a class="navbar-brand d-lg-none" href="/" style="color: white;">
+    <img src="img/iconos/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    Helplace
+  </a>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+		 aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link home-link" href="/">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link plaza-link" href="/plazas">Plazas comerciales</a>
+				</li>
+			<!-- 	
+				<li class="nav-item">
+					<a class="nav-link solicitar-link" href="#">Solicitar una plaza</a>
+				</li> -->
+
+			</ul>
+		</div>
+	</nav>
+
+	<div class="logo-container text-center d-none d-lg-block">
+		<img src="img/iconos/logo.png" alt="" class="logo">
+		<span>Helplace</span>
+	</div>
 
 	<?php echo $this->fetch('content'); ?>
 
 	<div id="footer">
 	</div>
 	</div>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuUsluKXcIF2Hkqowx_sq2H38d8nUPOdc&callback=initMap">
+	</script>
 
 	<!-- BS JS -->
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
